@@ -65,10 +65,14 @@ int main()
 	freopen("output.txt", "w", stdout);
 	#endif
 
-	Stack s;
-	s.push(5);
+    Stack s;
+    s.push(5);
     s.push(10);
     s.push(20);
+    s.push(30);
+    s.push(40);
+		
+		
     cout<<s.pop()<<endl;
     cout<<s.topElement()<<endl;
     cout<<s.sizeOfStack()<<endl;
